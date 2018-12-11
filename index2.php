@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Архитектурное бюро "TOWER"</title>                                                                                                 
-</head>
-<body>
+<?php include './header.php'; ?>
+
 
 	<!-- HEADER -->
 
@@ -31,7 +17,7 @@
 				</nav>
 				<div class="phone-recall">
 					<span>+7 (987) 999 78 97</span>
-					<a href="">Заказать звонок</a>
+					<a href="callback.php">Заказать звонок</a>
 				</div>
 		</div>
 	</header>
@@ -41,6 +27,7 @@
 	
 	<div class="container container-top"> 
 
+		
 
 	    <!-- ASIDE -->
 
@@ -74,18 +61,18 @@
     	<div class="services-items">
 	    	<div class="services-items-row">
 	    		<div class="services-items-block">
-	    			<a class="services-items-block-living services-items-block-shadow services-items-block-hover" href="">
+	    			<a class="services-items-block-large services-items-block-living services-items-block-shadow services-items-block-hover" href="">
 	    				<p>Проектирование жилых зданий</p>
 	    			</a>
 	    		</div>
 	    		<div class="services-items-block">
-		    		<div class="services-items-block-small">
-		    			<a class="services-items-block-design services-items-block-shadow services-items-block-hover" href="">
+		    		<div class="services-items-block">
+		    			<a class="services-items-block-small services-items-block-design services-items-block-shadow services-items-block-hover" href="">
 		    				<p>Перепланировки<br>Дизайн</p>
 		    			</a>
 		    		</div>
-		    		<div class="services-items-block-small">
-		    			<a class="services-items-block-projects services-items-block-shadow services-items-block-hover" href="">
+		    		<div class="services-items-block">
+		    			<a class="services-items-block-small services-items-block-projects services-items-block-shadow services-items-block-hover" href="">
 		    				<p>Типовые проекты</p>
 		    			</a>
 		    		</div>
@@ -93,19 +80,19 @@
 	    	</div>
 	    	<div class="services-items-row">
 	    		<div class="services-items-block">
-		    		<div class="services-items-block-small">
-		    			<a class="services-items-block-network services-items-block-shadow services-items-block-hover" href="">
-		    				<p>Перепланировки<br>Дизайн</p>
+		    		<div class="services-items-block">
+		    			<a class="services-items-block-small services-items-block-network services-items-block-shadow services-items-block-hover" href="">
+		    				<p>Инженерные сети</p>
 		    			</a>
 		    		</div>
-		    		<div class="services-items-block-small">
-		    			<a class="services-items-block-survay services-items-block-shadow services-items-block-hover" href="">
-		    				<p>Типовые проекты</p>
+		    		<div class="services-items-block">
+		    			<a class="services-items-block-small services-items-block-survay services-items-block-shadow services-items-block-hover" href="">
+		    				<p>Инженерные<br>изыскания</p>
 		    			</a>
 		    		</div>
 		    	</div>
 	    		<div class="services-items-block">
-	    			<a class="services-items-block-industrial services-items-block-shadow services-items-block-hover" href="">
+	    			<a class="services-items-block-large services-items-block-industrial services-items-block-shadow services-items-block-hover" href="">
 	    				<p>Проектирование жилых зданий</p>
 	    			</a>
 	    		</div>
