@@ -1,0 +1,200 @@
+
+/* COMMON STYLE */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-family: Roboto;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 32px;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+/*HEADER*/
+
+.header { 
+  height: 100px;
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  box-shadow: 0 0 25px -5px;
+}
+
+.header a{
+  font-size: 18px;
+  color: #353535;
+}
+
+.phone-recall a{
+  text-decoration: underline;
+}
+ 
+.header-items{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*TOP-MENU*/
+
+.top-menu-list{
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu-list li{
+  margin: 10px;
+  display: inline-block;
+}
+
+.phone-recall{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+.phone-recall a{
+  font-weight: 1000;
+}
+
+
+/*CONTENT*/
+
+.container-top{
+  margin-bottom: 30px;  
+}
+
+/*CAROUSEL*/
+
+.carousel-control-prev, .carousel-control-next, .carousel{
+  height: 480px;
+}
+.carousel{
+  max-width: 100%;
+}
+
+/*ASIDE*/
+
+
+.aside-item-button{
+  display:flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 280px;
+  height: 150px;
+  margin-left:15px;
+  margin-bottom: 15px;
+  background-color: #48aab5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 22px;
+  box-shadow: 0 0 10px -3px #000000;
+}
+
+.aside-item-button p{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+
+  color: #e6e6e6;
+}
+.aside-item-button:hover{
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+/*SERVICES CONTENT*/
+
+.services-items{
+  margin-top: 30px;
+}
+
+.services-items-row{
+  display: flex;
+
+}
+
+.services-items-block-large{
+  display: flex;
+  justify-content: flex-end;
+  width: 750px;
+  height: 500px;
+  padding: 30px;
+  color: #353535;
+  font-size: 24px;
+  font-weight: 600;
+}
+.services-items-block-living{
+ background-image: url(../img/services-living-buildings.png);
+}
+.services-items-block-hover:hover{
+  color: #353535;
+  text-decoration: none; 
+}
+.services-items-block-small{
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px; 
+  width: 370px;
+  height: 240px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px; 
+  color: #353535;
+}
+.services-items-block-design{
+  background-image: url(../img/services-design.png);
+  margin-left: 20px;
+  
+}
+.services-items-block-projects{
+  background-image: url(../img/services-projects.png);
+  margin-left: 20px;
+  align-items: flex-end;
+  padding-bottom: 0;  
+  text-shadow: 2px 2px 3px  white, -2px -2px 3px  white;
+}
+
+.services-items-block-network{
+  background-image: url(../img/services-network.png);
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+.services-items-block-survay{
+  background-image: url(../img/services-engineering-survey.png);
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+.services-items-block-industrial{
+  background-image: url(../img/services-industrial-buildings.png);
+}
+
+
+
+
+
+
+
+
+
+
+.services-items-block-shadow{
+
+  box-shadow: 0 0 10px -3px #000000;
+}
